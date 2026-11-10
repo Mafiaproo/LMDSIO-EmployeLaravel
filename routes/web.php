@@ -8,3 +8,6 @@ Route::get('/', function () {
 });
 
 Route::get('/listerEmployes', [ EmployeController::class, 'listEmployes']);
+Route::get('/ajoutEmploye', [EmployeController::class, 'addEmploye']);
+
+Route::post('/validerEmploye', [ EmployeController::class, 'validerEmploye']);

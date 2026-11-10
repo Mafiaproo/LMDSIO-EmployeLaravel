@@ -1,3 +1,15 @@
 body {
     margin-top: 80px;
 }
+
+.form-group > label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+label > .champ-obli {
+    font-weight: lighter;
+    color: #ff5454;
+    font-size: 60%;
+    margin-left: 20px;
+}

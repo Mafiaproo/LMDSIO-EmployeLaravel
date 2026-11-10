@@ -22,7 +22,7 @@
                         <a class="nav-link" href="{{ url("/listerEmployes") }}">Lister</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url("/ajouterEmploye") }}">Ajouter</a>
+                        <a class="nav-link" href="{{ url("/ajoutEmploye") }}">Ajouter</a>
                     </li>
                 </ul>
             </div>
