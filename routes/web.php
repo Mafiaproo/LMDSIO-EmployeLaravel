@@ -9,5 +9,6 @@ Route::get('/', function () {
 
 Route::get('/listerEmployes', [ EmployeController::class, 'listEmployes']);
 Route::get('/ajoutEmploye', [EmployeController::class, 'addEmploye']);
+Route::get('/editerEmploye/{id}', [EmployeController::class, 'editEmploye']);
 
 Route::post('/validerEmploye', [ EmployeController::class, 'validerEmploye']);
